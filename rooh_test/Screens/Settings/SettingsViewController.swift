@@ -117,6 +117,8 @@ final class SettingsViewController: UIViewController, UITableViewDelegate, UITab
     private func setupNavigationAppearance() {
         guard let navBar = navigationController?.navigationBar else { return }
         
+        tabBarItem.title = ""
+        
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = UIColor(named: Constants.backgroundColorName)

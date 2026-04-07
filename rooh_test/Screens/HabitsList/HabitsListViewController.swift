@@ -91,6 +91,8 @@ final class HabitsListViewController: UIViewController {
     }
     
     private func setupNavigationBar() {
+        tabBarItem.title = ""
+        
         navigationItem.title = Constants.navTitle
         navigationItem.largeTitleDisplayMode = .always
         navigationController?.navigationBar.prefersLargeTitles = true

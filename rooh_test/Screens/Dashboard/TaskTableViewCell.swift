@@ -106,6 +106,7 @@ final class TaskTableViewCell: UITableViewCell {
     
     // MARK: - Setup
     private func setupUI() {
+        
         backgroundColor = .clear
         selectionStyle = .none
         

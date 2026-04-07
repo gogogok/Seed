@@ -137,6 +137,8 @@ final class DashboardViewController: UIViewController {
     
     // MARK: - UI
     private func configureUI() {
+        tabBarItem.title = ""
+        
         view.addSubview(welcomeLabel)
         view.addSubview(progressCard)
         view.addSubview(tableView)

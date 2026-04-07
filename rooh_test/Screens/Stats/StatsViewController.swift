@@ -182,6 +182,8 @@ final class StatsViewController: UIViewController {
     
     // MARK: - UI
     private func setupLayout() {
+        tabBarItem.title = ""
+        
         view.addSubview(titleLabel)
         view.addSubview(subtitleLabel)
         view.addSubview(ringContainer)
